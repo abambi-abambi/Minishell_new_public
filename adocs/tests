@@ -1,0 +1,21 @@
+
+date > fimm;
+uname >> fimm;
+cat fimm;
+sort < fimm;
+date > fimm > m;
+cat fimm;
+cat m;
+ls <> fimm;
+
+cat < fimm;
+
+cat > fimm;
+(строки-строки, затем Ctrl D)
+cat fimm;
+cat fimm | << stop_word;
+cat < fimm > z;
+cat > gg < z;
+uname; echo "date; uname"; date
+echo "sdfs | wc -l" | wc -l
+echo "sdfs | wc -l"

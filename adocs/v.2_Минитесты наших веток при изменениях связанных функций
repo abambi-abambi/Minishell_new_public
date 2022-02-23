@@ -1,0 +1,92 @@
+Мини-тесты для проверки веток парсера после изменений:
+
+*
+пустая строка
+много табов подряд
+
+* Выполнение команд
+date; uname; date
+ls | wc -l
+echo "sdfas; cd .."
+echo "sdfas; cd .." | wc -l
+
+* Редиректы (> >>)
+date > fimm
+uname >> fimm
+cat fimm
+sort < fimm
+date > fimm > m
+cat fimm
+cat m
+ls <> fimm
+
+* Двойные кавычки "
+echo "sdfas\"sdf"
+echo "sdfas'sdfas"
+echo "$USER"
+echo $USER
+echo "sdr | cd .."
+echo "sdr ; cd .."; echo sde
+
+* Одинарные кавычки '
+echo '\\\\'
+echo '$USER'
+echo 'dr ; cd ..'; echo sde
+
+* $
+echo $PWD
+echo $?
+
+* cd
+cd .
+cd 
+cd ..
+cd /
+cd ~
+cd ~/папка_в_корне_юзера
+cd /usr/bin
+cd -
+
+* env
+env
+
+* export
+export
+export a='sdfa'
+
+
+* unset
+unset a
+env
+
+* pwd
+pwd
+
+* Проверка ветки с echo
+echo dfas
+echo $USER
+
+* exit
+exit
+exit 0
+echo $?
+
+exit 1
+echo $?
+
+exit -abc
+echo $?
+
+exit -
+echo $?
+
+sdfas
+echo $?
+
+
+* Слэш \
+echo \\\\
+echo \\\'\"
+echo \"\'\\
+echo \$USER
+echo \\$USER

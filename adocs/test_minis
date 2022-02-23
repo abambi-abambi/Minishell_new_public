@@ -1,0 +1,27 @@
+Редиректы
+
+date > fimm;
+uname >> fimm;
+cat fimm;
+sort < fimm;
+date > fimm > m;
+cat fimm;
+cat m;
+ls <> fimm;
+(обработка такого исключения)
+cat < fimm;
+
+cat > fimm;
+(строки-строки, затем Ctrl D)
+cat fimm;
+cat fimm | << stop_word;
+
+cat < fimm > z;
+(должен существовать файл fimm?)
+
+cat > gg < z;
+(должен существовать файл z?)
+
+uname; echo "date; uname"; date
+echo "sdfs | wc -l" | wc -l
+echo "sdfs | wc -l"
